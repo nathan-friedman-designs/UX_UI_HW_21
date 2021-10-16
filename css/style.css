@@ -1,0 +1,54 @@
+nav {
+    outline: 1px solid red;
+}
+.containerGrid {
+    display: grid;
+    grid-template-columns: auto 75%;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "sidebar jumbotron"
+        ;
+}
+.sidebar {
+    grid-area: sidebar;
+    outline: 1px solid red;
+}
+.jumbotron {
+    grid-area: jumbotron;
+    text-align: center;
+    vertical-align: middle;
+    outline: 1px solid red;
+}
+.content {
+    outline: 1px solid red;
+}
+footer {
+    outline: 1px solid red;
+}
+.footerContainerGrid {
+    display: grid;
+    grid-template-columns: auto 33% auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "logo . followUs"
+        "about newsletter siteHelp"
+        ". copyright .";
+}
+.logo {
+    grid-area: logo;
+}
+.followUs {
+    grid-area: followUs;
+}
+.about {
+    grid-area: about;
+}
+.newsletter {
+    grid-area: newsletter;
+}
+.siteHelp {
+    grid-area: siteHelp;
+}
+.copyright {
+    grid-area: copyright;
+}
