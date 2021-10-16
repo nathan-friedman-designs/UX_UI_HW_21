@@ -35,7 +35,7 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Hobby-Go-Lucky</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,24 +44,26 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Shop</a>
+                <a class="nav-link" aria-current="page" href="#">Shop</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Discover</a>
+                <a class="nav-link active" href="#">Discover</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Talk with An Expert</a>
               </li>
             </ul>
+          </div>
+          <div class="search">
             <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
       </nav>
-      <div class="containerGrid">
-      <div class="sidebar d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
+      <div class="row">
+      <div class="sidebar d-flex flex-column flex-shrink-0 p-3 bg-light col-xl-3" style="width: 280px;">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
           <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
           <span class="fs-4">Watching Anime</span>
@@ -89,21 +91,147 @@
         </ul>
         <hr>
       </div>
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid col-9">
         <div class="container">
+          <img src="images/placeholderImg.png">
           <h1 class="display-4">How to Start Watching Anime</h1>
         </div>
       </div>
     </div>
+      <div class="row">
+        <div class="whitespace col-xl-3">
 
-      <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="footerContainerGrid">
+        </div>
+        <div class="content col-xl-9">
+        <section class="whatIsAnime">
+        <h2>
+          What is Anime?
+          </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet elit id semper odio in. Mauris id ornare velit turpis est ornare ac. Scelerisque gravida volutpat in venenatis, dignissim ac. Mauris lacus purus urna velit. Odio etiam eu ornare ut lacus, mauris. Dictumst eget a morbi eget lacus dui a arcu. A sit feugiat amet id viverra sit lorem auctor. Ridiculus pretium, porttitor justo, iaculis mattis maecenas. Viverra molestie neque, amet, quisque id. Urna neque, ac nibh dui, id magna mauris lacus. Elit tempus viverra sed nulla viverra mattis lacus. Lectus ut posuere sit dui gravida suspendisse.
+
+          Diam posuere egestas a molestie donec eget morbi facilisi. Sed ultrices quisque id odio lobortis. Tortor pulvinar nibh malesuada nisl urna, non dolor. Viverra pellentesque eget nec pellentesque mattis id rhoncus, gravida etiam. Scelerisque quam pellentesque porttitor quam elit. Donec metus elementum amet vulputate at.
+        </p>
         <div class="row">
-          <div class="col-12 col-md">
-            <img class="logo mb-2" src="../../assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+        <div class="card col-xl-4" style="width: 18rem;">
+          <img src="images/placeholderImg.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+        <div class="card col-xl-4" style="width: 18rem;">
+          <img src="images/placeholderImg.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+        <div class="card col-xl-4" style="width: 18rem;">
+          <img src="images/placeholderImg.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+        </div>
+      </section>
+
+        <section class="whyTryIt">
+        <h2>
+          Why Should I Try It?
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet elit id semper odio in. Mauris id ornare velit turpis est ornare ac. Scelerisque gravida volutpat in venenatis, dignissim ac. Mauris lacus purus urna velit. Odio etiam eu ornare ut lacus, mauris. Dictumst eget a morbi eget lacus dui a arcu. A sit feugiat amet id viverra sit lorem auctor. Ridiculus pretium, porttitor justo, iaculis mattis maecenas. Viverra molestie neque, amet, quisque id. Urna neque, ac nibh dui, id magna mauris lacus. Elit tempus viverra sed nulla viverra mattis lacus.
+        </p>
+        <div>
+
+          <div class="card-deck">
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="images/placeholderImg.png" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Reason One Lorem Ipsum</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget adipiscing amet justo, proin. Non libero enim urna feugiat quam ullamcorper purus. Quis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="images/placeholderImg.png" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Reason Two Lorem Ipsum</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget adipiscing amet justo, proin. Non libero enim urna feugiat quam ullamcorper purus. Quis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="images/placeholderImg.png" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Reason Three Lorem Ipsum</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget adipiscing amet justo, proin. Non libero enim urna feugiat quam ullamcorper purus. Quis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <section class="howFindIt">
+        <h2>
+          How Do I Find It?
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet elit id semper odio in. Mauris id ornare velit turpis est ornare ac. Scelerisque gravida volutpat in venenatis, dignissim ac. Mauris lacus purus urna velit. Odio etiam eu ornare ut lacus, mauris. Dictumst eget a morbi eget lacus dui a arcu. A sit feugiat amet id viverra sit lorem auctor. Ridiculus pretium, porttitor justo, iaculis mattis maecenas. Viverra molestie neque, amet, quisque id. Urna neque, ac nibh dui, id magna mauris lacus. Elit tempus viverra sed nulla viverra mattis lacus.
+        </p>
+        <div class="row">
+          <div class="card mb-3" style="max-width: 18rem;">
+            <h5 class="card-header bg-transparent ">Crunchyroll</h5>
+            <div class="card-body">
+              <img src="images/placeholderImg.png" class="card-img-top" alt="...">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="card-footer bg-transparent "><button>Go There</button></div>
+          </div>
+          <div class="card  mb-3" style="max-width: 18rem;">
+            <h5 class="card-header bg-transparent ">Funimation</h5>
+            <div class="card-body">
+              <img src="images/placeholderImg.png" class="card-img-top" alt="...">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="card-footer bg-transparent "><button>Go There</button></div>
+          </div>
+          <div class="card mb-3" style="max-width: 18rem;">
+            <h5 class="card-header bg-transparent ">Youtube</h5>
+            <div class="card-body">
+              <img src="images/placeholderImg.png" class="card-img-top" alt="...">
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="card-footer bg-transparent "><button>Go There</button></div>
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet elit id semper odio in. Mauris id ornare velit turpis est ornare ac. Scelerisque gravida volutpat in venenatis, dignissim ac. Mauris lacus purus urna velit. Odio etiam eu ornare ut lacus, mauris. Dictumst eget a morbi eget lacus dui a arcu. A sit feugiat amet id viverra sit lorem auctor. Ridiculus pretium, porttitor justo, iaculis mattis maecenas. Viverra molestie neque, amet, quisque id. Urna neque, ac nibh dui, id magna mauris lacus. Elit tempus viverra sed nulla viverra mattis lacus. 
+        </p>
+        </section>
+      </div>
+    </div>
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="logo-copy col-xl-12">
+            <img class="logo mb-2" src="images/placeholderImg.png" alt="" width="24" height="24">
             <small class="copyright d-block mb-3 text-muted">&copy; Hobby-Go-Lucky 2021</small>
           </div>
-          <div class="followUs col-6 col-md">
+          <div class="followUs col-xl-3">
             <h5>Follow Us</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Facebook</a></li>
@@ -112,21 +240,7 @@
               <li><a class="text-muted" href="#">Pinterest</a></li>
             </ul>
           </div>
-          </div>
-          <div class="newsletter row">
-                <h3>Newsletter Signup</h3>
-          <p>
-              Want to stay in the know about the coolest hobbies? Sign up for our weekly newsletter!
-          </p>
-          <div class="col">
-              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Email address" aria-label="Email address">
-            </div>
-            <button type="submit" class="btn btn-primary">Sign Up!</button>
-          </div>
-          <div class="about col-6 col-md">
+          <div class="about col-xl-6">
             <h5>About</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Contact Us</a></li>
@@ -134,7 +248,8 @@
               <li><a class="text-muted" href="#">Careers</a></li>
               <li><a class="text-muted" href="#">Staff</a></li>
             </ul>
-          <div class="site col-6 col-md">
+          </div>
+          <div class="site col-xl-3">
             <h5>Site</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Site Map</a></li>
@@ -144,7 +259,6 @@
             </ul>
           </div>
         </div>
-    </div>
       </footer>
       
 
